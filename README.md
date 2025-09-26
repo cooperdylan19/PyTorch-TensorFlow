@@ -1,2 +1,3 @@
-# PyTorch-TensorFlow
-An in-depth refresher course on using PyTorch and TensorFlow (machine learning libraries)
+# Using PyTorch and TensorFlow
+
+**Training Course Used**: https://www.youtube.com/watch?v=BVqj1R71508
