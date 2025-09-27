@@ -1,4 +1,4 @@
-# Using PyTorch and TensorFlow
+# Using TensorFlow and PyTorch
 
 **Training Course Used**: https://www.youtube.com/watch?v=BVqj1R71508
 
@@ -9,5 +9,10 @@
 
 ## SECTION I: TensorFlow ##
 
-- Flexible and scalable architecture for implementing machine learning models.
-- Used in time series analysis forecasting
+- Flexible and scalable architecture for implementing machine learning models
+- Used for time series analysis forecasting
+
+### CHAPTER 1: Introduction ##
+
+**Script 1**: HelloTensorFlow
+
