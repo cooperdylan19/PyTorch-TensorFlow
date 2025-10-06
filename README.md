@@ -1,9 +1,9 @@
-TensorFlow and Keras: Deploying custom models
+# TensorFlow and Keras: Deploying custom models
 
 **Training Course Used**: https://www.youtube.com/watch?v=BVqj1R71508
 
 
-### CHAPTER 1: Introduction
+#### CHAPTER 1: Introduction
 
 **Script 1**: HelloTensorFlow
 
@@ -23,5 +23,5 @@ This script defines and compiles a simple feedforward neural network using Keras
 
 
 
-### CHAPTER 2: Tensors and Operations
+#### CHAPTER 2: Tensors and Operations
 
