@@ -49,11 +49,23 @@ The script also defines a tensor x to illustrate computation. TensorFlow compute
 
 🔹 **Script 3**: GraphSessions
 
-**Script 4**: GraphSessions2
+Two constant tensors a and b are defined, and a matrix multiplication operation c = tf.matmul(a, b) is added to the computation graph. The line print(tf.compat.v1.get_default_graph().as_graph_def()) displays the graph’s internal structure, showing the defined operations. A TensorBoard writer is then created to save the graph definition to a “logs” directory, allowing it to be visualized in TensorBoard. Finally, a TensorFlow session runs the graph, computes the matrix product, and prints the resulting 2 by 2 matrix.
 
-**Script 5**: BNNs
+🔹 **Script 4**: GraphSessions2
 
-**Script 6**: LossFunctions&Optimizers
+This script manually builds and executes a simple TensorFlow computation graph. It first creates a new graph and defines two constant tensors, a and b, with values 2 and 3, along with an addition operation c = tf.add(a, b) inside that graph. Then, a TensorFlow session is opened to execute the graph. Within the session, sess.run(c) evaluates the addition operation, computes the result 5, and prints it to the console.
 
-**Script 7**: ActivationFunctions
+🔹 **Script 5**: BNNs
+
+🔹 **Script 6**: LossFunctions&Optimizers
+
+🔹 **Script 7**: ActivationFunctions
+
+<div align="center">
+  <h3>🟩 CHAPTER 3: Custom models with Keras 🟩</h3>
+</div>
+
+<div align="center">
+  <h3>🟩 CHAPTER 4: Deploying models 🟩</h3>
+</div>
 
