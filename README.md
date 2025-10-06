@@ -25,3 +25,25 @@ This script defines and compiles a simple feedforward neural network using Keras
 
 #### CHAPTER 2: Tensors and Operations
 
+**Script 1**: TFOperations2A
+
+This script demonstrates a wide range of basic TensorFlow operations on tensors. It begins by performing arithmetic operations such as addition, subtraction, element-wise multiplication, and division on two 2 by 2 tensors. It then applies mathematical functions including squaring, square roots, exponentials, and natural logarithms. Next, it performs reduction operations to compute sums, means, and maximum values, followed by matrix operations such as matrix multiplication, transposition, and inversion. The script also showcases tensor indexing and slicing, extracting specific elements and columns, and finally illustrates broadcasting, where a smaller tensor is automatically expanded to match the shape of another during addition.
+
+**Script 2**: TFOperations2B
+
+This script demonstrates how TensorFlow handles different types of tensors and operations. It first defines constant tensors tensor_a, tensor_b, and constant_tensor, which hold fixed numerical values. 
+
+It then creates a variable tensor initialized with random values drawn from a normal distribution; this variable can be updated, as shown by reassigning it new random values using .assign(). 
+
+The script also defines a tensor x to illustrate computation. TensorFlow computes the element-wise square of x and prints the resulting tensor. Overall, it showcases the distinction between constants (unchangeable), variables (modifiable), and computed tensors in TensorFlow.
+
+**Script 3**: GraphSessions
+
+**Script 4**: GraphSessions2
+
+**Script 5**: BNNs
+
+**Script 6**: LossFunctions&Optimizers
+
+**Script 7**: ActivationFunctions
+
